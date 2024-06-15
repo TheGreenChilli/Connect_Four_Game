@@ -1,0 +1,35 @@
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+#board {
+  height: 540px;
+  width: 630px;
+  background-color: #2bcbba;
+  border: 10px solid #0fb9b1;
+  
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tile {
+  height: 70px;
+  width: 70px;
+  margin: 5px;
+
+  /* Circle */
+  background-color: white;
+  border-radius: 50%;
+  border: 5px solid #0fb9b1;
+}
+
+.red-piece {
+  background-color: red;
+}
+
+.yellow-piece {
+  background-color: yellow;
+}
